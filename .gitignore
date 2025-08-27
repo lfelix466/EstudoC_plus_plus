@@ -3,3 +3,4 @@
 .vscode/tasks.json
 output/CriarGrafo.exe
 output/DFS.exe
+output/BFS.exe
