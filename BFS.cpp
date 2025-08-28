@@ -105,15 +105,17 @@ void bfs(Grafo* grafo, int origem) {
 }
 
 int main() {
-    Grafo* grafo = Graph(5);
+    Grafo* grafo = Graph(10);
 
     adicionarAresta(grafo, 0, 1);
-    adicionarAresta(grafo, 0, 4);
-    adicionarAresta(grafo, 1, 2);
-    adicionarAresta(grafo, 1, 3);
-    adicionarAresta(grafo, 1, 4);
+    adicionarAresta(grafo, 0, 2);
     adicionarAresta(grafo, 2, 3);
-    adicionarAresta(grafo, 3, 4);
+    adicionarAresta(grafo, 2, 4);
+    adicionarAresta(grafo, 4, 5);
+    adicionarAresta(grafo, 4, 6);
+    adicionarAresta(grafo, 5, 7);
+    adicionarAresta(grafo, 6, 7);
+    adicionarAresta(grafo, 8, 9);
 
     //imprimirGrafo(grafo);
     bfs(grafo, 0);
