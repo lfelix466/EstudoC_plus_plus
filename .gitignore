@@ -1,6 +1,4 @@
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
-output/CriarGrafo.exe
-output/DFS.exe
-output/BFS.exe
+*.exe
+*.json
+output/
+.vscode
